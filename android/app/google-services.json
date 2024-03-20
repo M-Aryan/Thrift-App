@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "284695538243",
+    "project_id": "thrift-3dc44",
+    "storage_bucket": "thrift-3dc44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284695538243:android:ac2800030ff8747c0c82f6",
+        "android_client_info": {
+          "package_name": "com.example.thirft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284695538243-1eeg4jgad56jhsmentkc4ahvugkbhdt4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thirft",
+            "certificate_hash": "4db71018e273e0f568bd125dce010394eee72e32"
+          }
+        },
+        {
+          "client_id": "284695538243-8l4idj10nfmb51rc3ua92qdmpptmak84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfJa7YeMs58-YMiqqhRWX8nZJlcO22tAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284695538243-8l4idj10nfmb51rc3ua92qdmpptmak84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "284695538243-pfjl25mhcvi5hf84tuf3q22i4qogmskd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.thirft"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

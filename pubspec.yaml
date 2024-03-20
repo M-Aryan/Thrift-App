@@ -1,0 +1,92 @@
+name: thrift
+description: "Embrace Thrift - Where Every Penny Counts"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+    #------------------------- PACKAGES ------------------------#
+  
+  # Icons Packages
+  cupertino_icons: ^1.0.2
+  iconsax: ^0.0.8
+
+
+  # State Management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  # Utility Packages
+  http: ^1.2.0
+  intl: ^0.19.0
+  logger: ^1.1.0
+  url_launcher: ^6.2.4
+  flutter_native_splash: ^2.2.4
+  smooth_page_indicator: ^1.1.0
+  connectivity_plus: ^5.0.1
+  shimmer: ^3.0.0
+  syncfusion_flutter_charts: ^25.1.35
+
+
+  # Firebase
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.14.0
+  cloud_firestore: ^4.13.1
+
+  # sms detection and permission handler
+  permission_handler: ^11.3.0
+  readsms: ^0.0.2+2
+
+  # Local Database
+  sqflite: ^2.3.2
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/thrift-icon-android.png"
+
+
+
+flutter:
+  uses-material-design: true
+
+  ## Local Assets
+  assets:
+
+    # Application 
+    - assets/logos/
+    - assets/images/on_boarding_screen/
+    - assets/images/signup/
+    - assets/icons/
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          style: italic
